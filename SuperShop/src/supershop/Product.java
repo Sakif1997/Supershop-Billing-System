@@ -8,6 +8,7 @@ public class Product {
     private String companyName;
     private String Category;
 
+	//Constructor
     public Product(int productId, String productName, double costPerUnit, String companyName, String Category) {
         this.productId = productId;
         this.productName = productName;
@@ -15,7 +16,7 @@ public class Product {
         this.companyName = companyName;
         this.Category = Category;
     }
-
+	//Setter and Getter method
     public int getProductId() {
         return productId;
     }
